@@ -1,1 +1,36 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+/* Variables Globales*/
+/* Estilo Navbar de BootStrap */
+/* .navbar-dark {
+    
+} */
+.navbar {
+  background-color: #111913 !important;
+  font-family: 'Syne', sans-serif !important;
+}
+
+.navbar-dark .navbar-nav {
+  color: #8E9290 !important;
+}
+
+.navbar-brand {
+  font-family: 'Syne', sans-serif !important;
+  color: #8E9290;
+}
+
+.nav-link {
+  color: #8E9290 !important;
+}
+
+.nav-link:hover {
+  color: #A03B38 !important;
+}
+
+#navbarNav {
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */

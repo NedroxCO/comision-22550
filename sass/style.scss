@@ -1,0 +1,42 @@
+/* Variables Globales*/
+ 
+$oscuro: #111913;
+$resalto: #A03B38;
+$gris: #8E9290;
+$claro: #EEEEEE;
+
+
+/* Estilo Navbar de BootStrap */
+/* .navbar-dark {
+    
+} */
+
+.navbar {
+    background-color: $oscuro !important;
+    font-family: 'Syne', sans-serif !important;
+}
+
+.navbar {
+    &-dark &-nav {
+        color: $gris !important;
+    }
+    &-brand {
+        font-family: 'Syne', sans-serif !important;
+        color: $gris;
+    }
+}
+
+.nav {
+    &-link {
+        color: $gris !important;
+    }
+    &-link:hover {
+        color: $resalto !important;
+    }
+}
+
+#navbarNav {
+    justify-content: right;
+    align-items: center;       
+}
+
