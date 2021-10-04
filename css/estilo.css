@@ -104,15 +104,8 @@ main p a:hover {
 
 .main__container {
     margin-top: 2%;
-    display: grid;
-    grid-template-columns: 33% auto 33%;
-    grid-template-rows: 100% auto;
-}
-
-.main__container > * {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
 }
 
 button {
@@ -159,6 +152,7 @@ footer div a:hover {
     grid-template-rows: 100% 100%;
     grid-template-areas: "contacto navega mundo" "copy copy copy";
     justify-items: center;
+    /* Espacio para el Footer */
     margin-top: 20%;
 }
 

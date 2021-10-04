@@ -1,11 +1,8 @@
 /* Variables Globales*/
-/* Estilo Navbar de BootStrap */
-/* .navbar-dark {
-    
-} */
+/* Estilo del Menu | Nav*/
 .navbar {
   background-color: #111913 !important;
-  font-family: 'Syne', sans-serif !important;
+  font-family: "Syne", sans-serif !important;
 }
 
 .navbar-dark .navbar-nav {
@@ -13,7 +10,7 @@
 }
 
 .navbar-brand {
-  font-family: 'Syne', sans-serif !important;
+  font-family: "Syne", sans-serif !important;
   color: #8E9290;
 }
 
@@ -32,5 +29,39 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+/* Estilo de las Cartas | Card*/
+.card {
+  background-color: #111913;
+}
+
+.card-body {
+  color: #8E9290;
+}
+
+.card-title {
+  color: #8E9290;
+  font: "Syne", sans-serif;
+}
+
+/* Botones | Buttons*/
+.btn {
+  color: #A03B38;
+}
+
+.btn:hover {
+  color: #8E9290;
+}
+
+/* Titulos | Display headings */
+h1 {
+  font-family: "Syne", sans-serif;
+  color: #A03B38;
+}
+
+h2 {
+  font-family: "Syne", sans-serif;
+  color: #8E9290;
 }
 /*# sourceMappingURL=style.css.map */
