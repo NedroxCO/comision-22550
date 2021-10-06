@@ -58,12 +58,40 @@
 h1 {
   font-family: "Syne", sans-serif;
   color: #A03B38;
+  text-align: center;
 }
 
 h2 {
   font-family: "Syne", sans-serif;
   color: #8E9290;
+  text-align: center;
 }
 
 /* BS Carrusel | Carousel*/
+.carousel {
+  width: 100vh;
+  height: auto;
+}
+
+#carouselExampleIndicators {
+  margin: auto;
+}
+
+.carousel-control-prev {
+  background: #A03B38;
+  opacity: 1;
+  border-radius: 5vh;
+  height: 5vh;
+  width: 5vh;
+  margin: auto;
+}
+
+.carousel-control-next {
+  background: #A03B38;
+  opacity: 1;
+  border-radius: 5vh;
+  height: 5vh;
+  width: 5vh;
+  margin: auto;
+}
 /*# sourceMappingURL=style.css.map */

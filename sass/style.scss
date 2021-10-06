@@ -68,14 +68,44 @@ h {
             family: $fuente;
         }
         color: $resalto;
+        text-align: center;
     }
     &2 {
         font: {
             family: $fuente;
         }
         color: $gris;
+        text-align: center;
     }
 }
 
 /* BS Carrusel | Carousel*/
 
+.carousel {
+    width:100vh;
+    height: auto;
+
+}
+
+#carouselExampleIndicators {
+    margin: auto;
+}
+
+.carousel-control {
+    &-prev { 
+        background: $resalto;
+        opacity: 1;
+        border-radius: 5vh;
+        height: 5vh;
+        width: 5vh;
+        margin: auto;
+    }
+    &-next {
+        background: $resalto;
+        opacity: 1;
+        border-radius: 5vh;
+        height: 5vh;
+        width: 5vh;
+        margin: auto;
+    }
+}
