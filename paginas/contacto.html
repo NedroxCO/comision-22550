@@ -54,8 +54,8 @@
     </header>
     <!-- Formulario de Contacto -->
     <main class="main__text">
-        <form action="enviar.php" method="GET">
-
+        <h1>Formulario de Contacto | Nedrox Games</h1>
+<!--         <form action="enviar.php" method="GET">
             <fieldset>
                 <legend class="main__titulo">Contacto</legend>
     
@@ -81,7 +81,37 @@
                     <input type="reset" value="Limpiar">                       
             </fieldset>
             
-        </form>
+        </form> -->
+        <!-- Form the BS -->
+        <div class="container">
+            <form class="row g-3">
+                <div class="col-6">
+                    <input type="text" class="form-control" placeholder="¿Cuál es tu nombre?">
+                </div>
+                <div class="col-6">
+                    <input type="text" class="form-control" id="inputAddress" placeholder="¿Cuál es tu Dirección?">
+                </div>
+                <div class="col-6">
+                    <input type="text" class="form-control" id="inputCity" placeholder="¿Cuál es tu Ciudad?">
+                </div>
+                <div class="col-6">
+                    <select id="inputState" class="form-select">
+                        <option selected>Selecciona tu País</option>
+                        <option value="1">Argentina</option>
+                        <option value="2">Chile</option>
+                        <option value="3">Colombia</option>
+                    </select>
+                </div>
+                <div class="mb-3 text-center">
+                    <label for="exampleFormControlTextarea1" class="form-label">Cuéntanos tu inquietud</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="col-12">
+                <button type="submit" class="btn btn-dark">Enviar</button>
+                </div>
+            </form>
+        </div>
+        <!-- END Form -->
     </main>
     <footer class="footer__container">
         <div class="footer__contacto"><!-- Contacto con Correo -->

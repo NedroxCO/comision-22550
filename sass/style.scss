@@ -85,7 +85,12 @@ h {
     margin: auto;
 }
 
-/*Estilo Botones del Carrusel*/ 
+/*Estilo Botones del Carrusel*/
+
+.container {
+    width: 60%;
+    height: auto;
+}
 
 .carousel-control {
     &-prev { 
@@ -100,9 +105,36 @@ h {
         background: $resalto;
         opacity: 1;
         border-radius: 5vh;
-        height: 50; 
+        height: 5vh; 
         width: 5vh;
         margin: auto;
     }
 }
 
+/*Estilo del Formulario*/
+
+.form {
+    &-control {
+        &:focus {
+            border-color: $resalto;
+            box-shadow: 0 0 10px $resalto;
+        }
+    }
+    &-select {
+        &:focus {
+            border-color: $resalto;
+            box-shadow: 0 0 10px $resalto;
+        }
+    }
+    &-label {
+        color: $resalto;
+    }
+}
+
+
+
+/*h1*/
+
+.hidden {
+    visibility: hidden;
+}

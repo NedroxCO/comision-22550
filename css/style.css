@@ -68,13 +68,14 @@ h2 {
 }
 
 /* BS Carrusel | Carousel*/
-.carousel {
-  width: 100vh;
-  height: auto;
-}
-
 #carouselExampleIndicators {
   margin: auto;
+}
+
+/*Estilo Botones del Carrusel*/
+.container {
+  width: 60%;
+  height: auto;
 }
 
 .carousel-control-prev {
@@ -93,5 +94,27 @@ h2 {
   height: 5vh;
   width: 5vh;
   margin: auto;
+}
+
+/*Estilo del Formulario*/
+.form-control:focus {
+  border-color: #A03B38;
+  -webkit-box-shadow: 0 0 10px #A03B38;
+          box-shadow: 0 0 10px #A03B38;
+}
+
+.form-select:focus {
+  border-color: #A03B38;
+  -webkit-box-shadow: 0 0 10px #A03B38;
+          box-shadow: 0 0 10px #A03B38;
+}
+
+.form-label {
+  color: #A03B38;
+}
+
+/*h1*/
+.hidden {
+  visibility: hidden;
 }
 /*# sourceMappingURL=style.css.map */
