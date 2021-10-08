@@ -81,15 +81,11 @@ h {
 
 /* BS Carrusel | Carousel*/
 
-.carousel {
-    width:100vh;
-    height: auto;
-
-}
-
 #carouselExampleIndicators {
     margin: auto;
 }
+
+/*Estilo Botones del Carrusel*/ 
 
 .carousel-control {
     &-prev { 
@@ -104,8 +100,9 @@ h {
         background: $resalto;
         opacity: 1;
         border-radius: 5vh;
-        height: 5vh;
+        height: 50; 
         width: 5vh;
         margin: auto;
     }
 }
+

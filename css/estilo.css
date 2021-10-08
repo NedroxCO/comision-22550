@@ -11,6 +11,11 @@ Colores:
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    height: 100%;
+}
+
 /*Menú*/
 .menu {
     display: flex;
@@ -153,7 +158,10 @@ footer div a:hover {
     grid-template-areas: "contacto navega mundo" "copy copy copy";
     justify-items: center;
     /* Espacio para el Footer */
-    margin-top: 20%;
+    margin-top: auto;
+    z-index: -101;
+    padding-top: 60px;
+    padding-bottom: 35px;
 }
 
 /*CONTACTO*/
