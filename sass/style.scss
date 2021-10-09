@@ -5,12 +5,6 @@
 
 /*Operaciones en Sass*/
 
-@for $i from 1 through 6 {
-    h#{$i} {
-        font-size: 300% / $i;
-    }
-}
-
 /* Estilo del Menu | Nav*/
 
 .navbar {
