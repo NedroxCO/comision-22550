@@ -1,11 +1,15 @@
-/* Variables Globales*/
- 
-$oscuro: #111913;
-$resalto: #A03B38;
-$gris: #8E9290;
-$claro: #EEEEEE;
-$fuente: 'Syne', sans-serif;
+/*Imports Iniciales*/
 
+@import "vars";
+
+
+/*Operaciones en Sass*/
+
+@for $i from 1 through 6 {
+    h#{$i} {
+        font-size: 300% / $i;
+    }
+}
 
 /* Estilo del Menu | Nav*/
 
@@ -130,8 +134,6 @@ h {
         color: $resalto;
     }
 }
-
-
 
 /*h1*/
 

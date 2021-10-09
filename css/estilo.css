@@ -101,7 +101,7 @@ main p a:hover {
 }
 
 .main__text--img {
-    width: 700px;
+    width: 100vh;
     height: auto;
 }
 
@@ -159,7 +159,6 @@ footer div a:hover {
     justify-items: center;
     /* Espacio para el Footer */
     margin-top: auto;
-    z-index: -101;
     padding-top: 60px;
     padding-bottom: 35px;
 }
@@ -209,8 +208,6 @@ footer div a:hover {
 
 #conocenos {
     padding-left: 1vh;
-    display: inline-block;
-    position: absolute;
     width: 600px;
     height: 600px;
     font-size: 30px;

@@ -1,4 +1,30 @@
+/*Imports Iniciales*/
 /* Variables Globales*/
+/*Operaciones en Sass*/
+h1 {
+  font-size: 300%;
+}
+
+h2 {
+  font-size: 150%;
+}
+
+h3 {
+  font-size: 100%;
+}
+
+h4 {
+  font-size: 75%;
+}
+
+h5 {
+  font-size: 60%;
+}
+
+h6 {
+  font-size: 50%;
+}
+
 /* Estilo del Menu | Nav*/
 .navbar {
   background-color: #111913 !important;
